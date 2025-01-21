@@ -145,6 +145,39 @@ border-radius: 10px;
   font-size: 1.5rem;
   border-radius: 5px;
 }
+
+/* footer */
+
+.site-footer{
+  background-color: #5c37b1;
+  color: white;
+  padding: 30px 20px;
+  text-align: left;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-column-about{
+  float: 1;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.logo img{
+  width: 50px;
+  height: 50px;
+
+}
+.site-name{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  
+}
 /* navbar responsive medium */
 @media screen (max-width: 768px) {
   .nav-link,
