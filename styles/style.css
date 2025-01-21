@@ -55,7 +55,7 @@ body{
 
 }
 .contact-btn:hover {
-  background-color: #7668f7;
+  background-color: #e7cf8e;
   
 }
 .menu-bar{
@@ -64,11 +64,43 @@ body{
   cursor: pointer;
 }
 
-
-
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color:#f0f8ff ;
+}
+.banner-content{
+  max-width: 50%;
+}
+.banner-content h1 {
+  font-size: 3rem;
+  color: #01ACFD;
+}
+.banner-content p{
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.enroll-btn{
+  background-color: black ;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.banner-image img{
+width: 100%;
+max-width: 400px;
+border-radius: 10px;
+}
 
 /* navbar responsive medium */
-@media screen and (max-width: 768px) {
+@media screen (max-width: 768px) {
   .nav-link,
 .contact-btn {
   display: grid;
@@ -77,5 +109,17 @@ body{
 .menu-bar{
   display: ;
 }
-  
+.banner {
+  flex-direction: column;
+  text-align: center; 
+}
+.banner-content {
+  max-width: 100%;
+}
+.banner-image {
+  order: -1;
+}
+.banner-image img {
+  max-width: 100%;
+}
 }
